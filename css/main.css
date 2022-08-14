@@ -5,7 +5,7 @@
 }
 
 .encabezado{
-    background-color: rgb(198, 169, 146);
+    background-color: #B2AC88;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -30,6 +30,9 @@
     border-radius: 25px;
 }
 
+.menu ul li:hover{
+    transform: scale(0.9);
+}
 
 .contenido{
     display: grid;
@@ -67,7 +70,7 @@
 
 footer h3{
     text-align: center;
-    background-color: rgb(198, 169, 146);
+    background-color: #B2AC88;
     width: 100vw;
     padding: 2rem;
     color: white;
